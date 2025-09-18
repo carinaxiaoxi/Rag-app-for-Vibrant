@@ -3,7 +3,7 @@ This project ingests content from [Vibrant Wellness](https://www.vibrant-wellnes
 
 ## Setup 
 
-first run the following coomand
+First run the following command:
 
 ```bash
 chmod -x run_local.sh
@@ -73,7 +73,9 @@ Additionally, it identifies both IgE and IgG-mediated immune responses to peanut
 python -m app.cli "How do I know if I need Food Sensitivity Test or not?"
 
 === Answer ===
- You may need a food sensitivity test if you experience digestive discomfort, fatigue, inflammation, chronic inflammation, digestive issues, joint pain, skin conditions, or respiratory issues. Additionally, if you have a family history of food allergies or a history of food sensitivities, this test could be beneficial.
+ You may need a food sensitivity test if you experience digestive discomfort, fatigue, inflammation,
+chronic inflammation, digestive issues, joint pain, skin conditions, or respiratory issues.
+Additionally, if you have a family history of food allergies or a history of food sensitivities, this test could be beneficial.
 
 ```
 
