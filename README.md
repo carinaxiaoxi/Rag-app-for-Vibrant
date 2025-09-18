@@ -3,7 +3,7 @@ This project ingests content from [Vibrant Wellness](https://www.vibrant-wellnes
 
 ## Setup 
 
-First run the following coomand
+first run the following coomand
 
 ```bash
 chmod -x run_local.sh
@@ -34,11 +34,48 @@ python -m app.ingest_web --url https://www.vibrant-wellness.com/test-menu/ --max
 
 ## Ask Questions
 
-finally use the following command to ask questions
+finally use the following command to ask questions (example questions and answers are included)
 
 ```bash
 python -m app.cli "What does the Wheat Zoomer Test measure?"
+
+=== Answer ===
+ The Wheat Zoomer measures immune reactivity to a wide variety of wheat proteins, including both gluten and non-gluten components, to assess wheat-related sensitivities.
+
 ```
+```bash
+python -m app.cli "What markers are being measured in Peanut Zoomer?"
+
+=== Answer ===
+ The Peanut Zoomer measures the following markers:
+- Ara h 1 (Conarachin)
+- Ara h 2 (Conglutin 7)
+- Ara h 3
+- Ara h 6 (Conglutin 8)
+- Ara h 5 (Profilin)
+- Ara h 7
+- Ara h 8 & Isoform
+- Ara h 9
+- Ara h 10 (Oleosin 1)
+- Ara h 11 (Oleosin 2)
+- Ara h 12 (Defensin 1)
+- Ara h 13 & Isoforms (Defensin 2 & Defensin 3)
+- Glycinin
+- Arachin
+- Oleosin Variant A
+- Oleosin Variant B
+
+Additionally, it identifies both IgE and IgG-mediated immune responses to peanuts.
+
+```
+
+```bash
+python -m app.cli "How do I know if I need Food Sensitivity Test or not?"
+
+=== Answer ===
+ You may need a food sensitivity test if you experience digestive discomfort, fatigue, inflammation, chronic inflammation, digestive issues, joint pain, skin conditions, or respiratory issues. Additionally, if you have a family history of food allergies or a history of food sensitivities, this test could be beneficial.
+
+'''
 
 
 
