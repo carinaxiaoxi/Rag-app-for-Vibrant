@@ -3,7 +3,7 @@ This project ingests content from [Vibrant Wellness](https://www.vibrant-wellnes
 
 ## Setup 
 
-first run the following coomand
+First run the following coomand
 
 ```bash
 chmod -x run_local.sh
